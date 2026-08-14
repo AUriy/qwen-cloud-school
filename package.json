@@ -1,0 +1,24 @@
+{
+  "name": "qwen-cloud-school",
+  "version": "1.0.0",
+  "description": "Проект создан в рамках обучения по плану \"Курс молодого бойца: Разработка в облаке\". Цель — освоить разработку веб-приложений в облачной среде с использованием Git, npm и современных практик.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AUriy/qwen-cloud-school.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AUriy/qwen-cloud-school/issues"
+  },
+  "homepage": "https://github.com/AUriy/qwen-cloud-school#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
