@@ -1,12 +1,16 @@
 const express = require('express');
+const path = require('path');
+
 const app = express();
-const PORT = 3070;
+const PORT = process.env.PORT || 3070;
+
+// Раздаём статические файлы из папки public (index.html, style.css)
+app.use(express.static(path.join(__dirname, '../public')));
 
 app.get('/', (req, res) => {
-  res.send('<h1>Привет! Это мой первый MVP.</h1><p>Сервер работает в GitHub Codespaces!</p>');
+    res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
 app.listen(PORT, () => {
-  console.log();
+    console.log('Сервер запущен на порту ' + PORT);
 });
-
