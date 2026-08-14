@@ -1,0 +1,3 @@
+name: public
+description: статические файлы (HTML, CSS, изображения)
+visible: true
